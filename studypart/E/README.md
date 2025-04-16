@@ -23,3 +23,10 @@
 6. mix deps.get
     > npm install? 이랑 비슷해요
 7. 끝 이제 프로젝트 진행하세요. 쉽죠?
+
+
+추가로 몇가지 더 알려주면 피닉스 아카이브 깔아야합니다.
+mix archive.install hex phx_new
+
+제가 할건 백엔드기에 프로젝트는 다음과 같이 생성 후 프로젝트를 진행합니다. (no html, no assest)
+mix phx.new rtc_signaling --no-html --no-assets
